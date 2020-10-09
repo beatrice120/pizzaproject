@@ -1,0 +1,68 @@
+
+
+
+h1{
+    text-align: center;
+    text-shadow: black;
+    text-decoration: blue;
+    font-weight: bolder;
+    font-family: 'Sansita Swashed', cursive;
+    color: coral;
+    font-weight: bold;
+}
+
+/*this is UI logic code. */
+/* those code will allow us to have slide show to our image*/
+  .slide-1,.slide-2,.slide3{
+      display: block;
+      position: absolute;
+       height: 70%;
+       width: 90%;
+    
+  }
+  .slide-1{
+      animation:fade1 7s infinite;
+  }
+  .slide-2{
+    animation:fade2 7s infinite;
+}
+.slide-3{
+    animation:fade3 7s infinite;
+}
+.slide-3{
+    animation:fade3 7s infinite;
+}
+@keyframes fade1{
+    0%{opacity: 1;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+
+}
+@keyframes fade2{
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+
+}
+@keyframes fade3{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+
+}
+.kes{
+    padding-top: 9%;
+    width: 100%;
+    height: 50%;
+    
+}
+.zeli{
+    margin-top: 10%;
+    text-align: center;
+}
