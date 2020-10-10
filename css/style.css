@@ -70,3 +70,57 @@ h2{
 .container{
     padding-top: 10%;
 }
+h3{
+    font-size:2px;
+    color: coral;
+    font-weight: bold;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+
+.flip-card {
+    
+    width: 250px;
+    height: 300px;
+    
+}
+.flip-card-inner { transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+   
+  }
+
+  .flip-card-front {
+    background-color: white;
+    color: black;
+  }
+
+
+ 
+  .flip-card-front, .flip-card-back {
+      backface-visibility: hidden;
+
+    position: absolute;
+    width: 100%;
+    height: 90%;
+   
+  }
+  /* codes to decorate the back card with size and price*/
+  
+  .flip-card-back {
+    background-color:gray;
+    border-radius: 30%;
+    transform: rotateY(200deg);
+  }
+  /* this shows how inner card will be turning using the degree to display the cost of pizza */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(140deg);
+  }
+  p{
+      color: black;
+      font-size:16px;
+      font-family: 'Sansita Swashed', cursive;
+  }
