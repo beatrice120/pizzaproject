@@ -10,6 +10,11 @@ h1{
     color: coral;
     font-weight: bold;
 }
+h2{
+    color: coral;
+    font-size:2px;
+    font-family: 'Sansita Swashed', cursive;
+}
 
 /*this is UI logic code. */
 /* those code will allow us to have slide show to our image*/
@@ -62,7 +67,6 @@ h1{
     height: 50%;
     
 }
-.zeli{
-    margin-top: 10%;
-    text-align: center;
+.container{
+    padding-top: 10%;
 }
