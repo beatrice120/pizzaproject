@@ -1,0 +1,16 @@
+<div class="col-md-4"> <h2> </h2><img src="images/c2.jpg" width="70%" height="70%"> </div>
+  <div class="col-md-4"><h2> </h2><img src="images/c3.jpeg" width="70%" height="70%"></div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-4"><h2> Meat Pizza</h2><img src="images/c4.jpg" width="70%" height="70%"></div>
+    <div class="col-md-4"> <h2> </h2><img src="images/c5.jpeg" width="70%" height="70%"> </div>
+    <div class="col-md-4"><h2> </h2><img src="images/c6.jpg" width="70%" height="70%"></div>
+  
+    </div>
+    <div class="row">
+      <div class="col-md-4"><h2> </h2><img src="images/c7.jpg" width="70%" height="70%"></div>
+      <div class="col-md-4"> <h2> </h2><img src="images/c8.jpeg" width="70%" height="70%"> </div>
+      <div class="col-md-4"><h2> </h2><img src="images/c9.jpg" width="70%" height="70%"></div>
+    
+      </div>

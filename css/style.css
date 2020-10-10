@@ -18,12 +18,15 @@ h2{
 
 /*this is UI logic code. */
 /* those code will allow us to have slide show to our image*/
+
+/*
   .slide-1,.slide-2,.slide3{
       display: block;
       position: absolute;
-       height: 70%;
-       width: 90%;
-    
+       height:40%;
+       width: 50%;
+    margin-left: 30%;
+   
   }
   .slide-1{
       animation:fade1 7s infinite;
@@ -61,10 +64,19 @@ h2{
     100%{opacity: 0;}
 
 }
+*/
+.what{
+ margin-left:4%;
+}
+.aw{
+    margin-left: 60%;
+}
 .kes{
-    padding-top: 9%;
-    width: 100%;
-    height: 50%;
+    padding-top:15%;
+    margin-bottom:10;
+    margin-left:10%;
+    width: 50px;
+    height: 50px;
     
 }
 .container{
@@ -124,3 +136,15 @@ h3{
       font-size:16px;
       font-family: 'Sansita Swashed', cursive;
   }
+  .or{
+      
+margin-left:7%;
+background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/190528082519-pizza-hut-pan-relaunch-super-tease.jpg");
+
+}
+ 
+h4{
+    color: black;
+    font-size: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
