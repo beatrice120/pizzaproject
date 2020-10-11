@@ -204,3 +204,17 @@ h9{
 color: white;
 font-weight: bold;
 }
+p1{
+    color: rgb(22, 9, 13);
+   
+    font-weight: bold;
+}
+.card-footer{
+    background-color: black;
+}
+.footer{
+    background-color:burlywood;
+    width: 150%;
+    text-align: center;
+    color: black;
+}

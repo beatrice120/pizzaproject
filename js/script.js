@@ -1,16 +1,15 @@
 $(document).ready(function() {
 
-
- 
-
-
-
-    //form function to submit the users input, calculate total for the order, and prompt the user for some details
-      $("#form-group").submit(function(event) {
-        //functions to get user input from the forms
-        function flavor() {
-          var pizzaFlavour = document.getElementById("flavor").value;
+$("#form-group").submit(function(event) {
+      
+        function flav() {
+          var pizzaFlavour = document.getElementById("flav").value;
           return parseInt(pizzaFlavour);
+        }
+
+        function topp() {
+          var pizzaTopping = document.getElementById("topp").value;
+          return parseInt(pizzaTopping);
         }
         function size() {
           var pizzaSize = document.getElementById("size").value;
@@ -20,42 +19,32 @@ $(document).ready(function() {
           var pizzaCrust = document.getElementById("crust").value;
           return parseInt(pizzaCrust);
         }
-        function topping() {
-          var pizzaTopping = document.getElementById("topping").value;
-          return parseInt(pizzaTopping);
-        }
-        function number() {
-          var pizzaNumber = document.getElementById("quantity").value;
-          return parseInt(pizzaNumber);
+        
+        function amount() {
+          var pizzaAmount = document.getElementById("quantity").value;
+          return parseInt(pizzaAmount);
         }
     
-        //a constructor to create objects/instances of a user's orders
-        function buy(flavor, size, crust, topping, quantity) {
-          this.newFlavor = flavor;
-          this.newSize = size;
+       
+        function buy(topp, flav, crust, quantity, size) {
+          this.newTopp = topp;
+          this.newFlav = flav;
           this.newCrust = crust;
-          this.newTopping = topping;
+         
           this.newQuantity = quantity;
+          this.newSize = size;
         }
     
-        //an object/instance (of the above constructor) to save the users order
-        var userInput = new buy(flavor(), size(), crust(), topping(), number());
-    
-        //a variable to store the total expenditure of the user
-        
-        
-        
+      
+        var userInput = new buy(flav(), size(), crust(), topp(), amount());  
      var totalCost =
-          (userInput.newSize + userInput.newCrust + userInput.newTopping + userInput.newFlavor) *userInput.newQuantity;
-    
-        //prompts for the user
+          (userInput.newSize + userInput.newCrust + userInput.newTopp + userInput.newFlav) *userInput.newQuantity;
+  
         alert("Your charges for Pizza" + totalCost);
-        prompt("enter your email address");
-        prompt("enter your phone number");
-        prompt("enter your location");
-        alert("Your pizza will be delivered");
-    
-        //a method to reset the form after all operations have been completed
+        prompt("enter your names");
+        prompt("enter your telephone number");
+        prompt("enter your address");
+        alert("Thank you dear client Your pizza will be delivered soon with total amount of " + totalCost + "for the pizza you bought");
         $("#form-group").reset();
     
         event.preventDefault();
