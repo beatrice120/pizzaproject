@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    
     <script
@@ -36,8 +37,9 @@
   <br><br><br>
 
 HARI HARI PIZZA SHOP IT HAVE ALL <br>GOOD TYPES OF PIZZA YOU LIKE AND NOT ONLY THAT<br> THEY CAN EVEN DELIVER IT TO YOUR DOOR <br>WHETHER AT YOUR WORKING 
-PLACE,AT HOME ANYWHERE <br>YOU ARE HARI HARI PIZZA SHOP THEY CAN <br>REACH ON YOU  IF YOU WANT
-FOR FREE WITHOUT CHARGING YOU ANY AMOUNT OF MONEY 
+PLACE,AT HOME ANYWHERE <br><br><br>YOU ARE HARI HARI PIZZA SHOP THEY CAN <br>REACH ON YOU  IF YOU WANT
+FOR FREE <br>WITHOUT CHARGING YOU ANY AMOUNT OF MONEY <br>
+IF YOU NEED IT THE DOOR IS OPEN WELCOME <br>IN HARI HARI AND HAVE JOY WITH PEACE OF MIND
 
 
 </h4>
@@ -48,7 +50,7 @@ FOR FREE WITHOUT CHARGING YOU ANY AMOUNT OF MONEY
 </div>
 
 <div class="aw">
-<img src="images/aw.jpg" width="500px" height="500px"></div>
+<img src="images/aw.jpg" width="400px" height="500px"></div>
 <div class="container">
   <br>
   <h1>TYPES OF PIZZA WE HAVE AND PRICE:</h1><br><br>
@@ -269,63 +271,75 @@ FOR FREE WITHOUT CHARGING YOU ANY AMOUNT OF MONEY
     </div>
 
     <br><br>
-    
-<div class=" or">
-  <h1>IF YOU NEED PIZZA MAKE ORDER WITH US PLEASE!!!!</h1>
+    <center>
+
+    <h7>IF YOU NEED PIZZA MAKE ORDER WITH US PLEASE!!!!</h7></center>
+
+<div class=" bg-img">
+  
 
   <br><br><br>
 
-    <div >
+    <div class="row">
+      <div class="col-md-4">
     <form class="form-group" id="form-group">
 
-      <label>pizza Flavor</label><br>
+      <label>Pick pizza Flavor you like</label><br>
       <select class="flavors" id="flavor" required><br>
-        <option label="chicken alfredo pizza" value="800">Chicken Alfredo Pizza</option>
-        <option label="Taco Quesadila Pizza" value="1200">Taco Quesadila Pizza</option>
-        <option label="Mushrooms" value="350">Mushrooms</option>
-        <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
-        <option label="Beef pizza" value="500">Beef pizza</option>
-        <option label="Sausage pizza" value="650">Sausage pizza</option>
+        <option label="chicken alfredo pizza" value="130">Chicken Alfredo Pizza</option>
+        <option label="Taco Quesadila Pizza" value="130">Taco Quesadila Pizza</option>
+        <option label="Mushrooms" value="130">Mushrooms</option>
+        <option label="Macaroni And Cheese Pizza" value="130">Macaroni And Cheese Pizza</option>
+        <option label="Beef pizza" value="130">Beef pizza</option>
+        <option label="Sausage pizza" value="130">Sausage pizza</option>
       </select><br><br>
       
+
+
+      <label for="">Pick toppings you like</label> <br>
+      <input value="100" type="checkbox" id="topping">Gorgonzola 
+      <input value="300" type="checkbox" id="topping">Pineapple<br>
+      <input value="120" type="checkbox" id="topping">Broccolini
+      <input value="124" type="checkbox" id="topping">Black olives<br>
+      <input value="80" type="checkbox" id="topping"> eggplant
       
-      <label>choose your pizza Size</label><br>
+
+
+    </div>
+    <div class="col-md-4">
+      
+      <label><h9>Pick your pizza size</h9></label><br>
       <select class="sizes" id="size" required><br>
-  <option label="Regular" value="300">Regular</option>
+  <option label="Smal" value="300">Small</option>
   <option label="Medium" value="600">Medium</option>
   <option label="Large" value="1200">Large</option>
 </select><br>
-<br>
 
 
-<label>choose your pizza Crust</label><br>
+
+<label><h9> Select your pizza Crust </h9></label><br>
 <select class="crust" id="crust" required><br>
   <option label="Sicilian Style" value="100">Sicilian Style</option>
   <option label="Neapolitan Crust" value="20">Neapolitan Crust</option>
   <option label="Pizza Bagels" value="90">Pizza Bagels</option>
   <option label="Flatbread" value="23">Flatbread</option>
   <option label="Thin Crust" value="47">Thin Crust</option>
-</select><br>
-<br><label>choose your pizza Topping</label><br>
-<select class="toppings" id="topping" required><br>
-  <option label="Pepperoni" value="100">Pepperoni</option>
-  <option label="Mushrooms" value="300">Mushrooms</option>
-  <option label="Onions" value="120">Onions</option>
-  <option label="Sausage" value="124">Sausage</option>
-  <option label="Green peppers" value="80">Green peppers</option>
-</select><br>
-<br><label>choose Number of pizza you need</label><br>
+</select>
+<br><label><h9> Enter the Quantity of Pizza you need </h9></label><br>
 <input value="" required placeholder="number of pizza" id="quantity"></input><br>
 <div class="button">
-  <br><br>
-
+ 
+</div>
+<br><br>
  <button type="submit" class="btn btn-warning">submit</button>
 </div>
+
 </form>
 </div>
 
   </div>
 </div>
+
  
 </body>
 </html>

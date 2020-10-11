@@ -10,6 +10,17 @@ h1{
     color: coral;
     font-weight: bold;
 }
+
+h7{
+    text-align: center;
+    text-shadow: black;
+    text-decoration: blue;
+    font-weight: bolder;
+    font-family: 'Sansita Swashed', cursive;
+    color: coral;
+    font-size: 30px;
+    font-weight: bold;
+}
 h2{
     color: coral;
     font-size:2px;
@@ -69,7 +80,8 @@ h2{
  margin-left:4%;
 }
 .aw{
-    margin-left: 60%;
+    margin-left: 70%;
+    margin-top: -30%;
 }
 .kes{
     padding-top:15%;
@@ -84,7 +96,7 @@ h2{
 }
 h3{
     font-size:2px;
-    color: coral;
+    color:black;
     font-weight: bold;
     font-family: 'Sansita Swashed', cursive;
 
@@ -136,15 +148,59 @@ h3{
       font-size:16px;
       font-family: 'Sansita Swashed', cursive;
   }
-  .or{
+ 
+
+
+.bg-img {
+    
+   
+  
+    min-height: 380px;
+  
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+  
       
-margin-left:7%;
-background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/190528082519-pizza-hut-pan-relaunch-super-tease.jpg");
+
+background-image: url("https://i.pinimg.com/originals/be/c4/de/bec4de77e9c454368367727167fcb65f.jpg");
 
 }
+
  
 h4{
     color: black;
     font-size: 6px;
     font-family: 'Courier New', Courier, monospace;
+}
+img:hover {
+    animation: shake 0.7s;
+    animation-iteration-count: infinite;
+  }
+  /* those are the codes to shake our image*/
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.form-group{
+    color: white;
+   
+    font-size: 16px;
+    font-weight: bold;
+}
+h9{
+color: white;
+font-weight: bold;
 }

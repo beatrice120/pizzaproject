@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+
+ 
+
+
+
     //form function to submit the users input, calculate total for the order, and prompt the user for some details
       $("#form-group").submit(function(event) {
         //functions to get user input from the forms
@@ -36,12 +42,11 @@ $(document).ready(function() {
         var userInput = new buy(flavor(), size(), crust(), topping(), number());
     
         //a variable to store the total expenditure of the user
-        var totalCost =
-          (userInput.newSize +
-            userInput.newCrust +
-            userInput.newTopping +
-            userInput.newFlavor) *
-          userInput.newQuantity;
+        
+        
+        
+     var totalCost =
+          (userInput.newSize + userInput.newCrust + userInput.newTopping + userInput.newFlavor) *userInput.newQuantity;
     
         //prompts for the user
         alert("Your charges for Pizza" + totalCost);
@@ -57,3 +62,4 @@ $(document).ready(function() {
       });
     });
     
+ 
