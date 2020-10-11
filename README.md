@@ -12,6 +12,10 @@ Javascript
 HTML5
 css
 
+## LINK OF MY PROJECT
+
+ https://beatrice120.github.io/pizzaproject/
+
 ## Installation/Setup instruction
 
  Download a zip file of the project.
@@ -30,9 +34,13 @@ Email:bshabani120@daviscollege.com
 
 Tel:0785643567
 
-## LINK OF MY PROJECT
+
+
+### Deployed project
 
  https://beatrice120.github.io/pizzaproject/
+
+ 
  #### license information.
 
 MIT License
