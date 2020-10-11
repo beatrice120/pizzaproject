@@ -36,7 +36,7 @@ $(document).ready(function() {
         
           
             var userInput = new buy(flav(), size(), crus(), topp(), amount());  
-         var fullCost = (userInput.newSize + userInput.newCrus + userInput.newTopp + userInput.newFlav) *userInput.newQuota;
+            var fullCost= (userInput.newSize + userInput.newCrus + userInput.newTopp + userInput.newFlav) *userInput.newQuota;
       /* business logic*/
            window.alert("price of your pizza is " + fullCost);window. prompt("enter your names");window.prompt("enter your telephone number");window.prompt("enter your address");
           window.alert("Thank you dear client Your pizza will be delivered soon with total amount of " + fullCost + "for the pizza you bought");
